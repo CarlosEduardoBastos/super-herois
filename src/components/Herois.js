@@ -13,7 +13,7 @@ const Herois = ({ dados }) => {
                 <p>Power: {powerstats.power}</p>
                 <p>Intelligence: {powerstats.intelligence}</p>
               </section>
-              <img src={images.sm} title="imagem" />
+              <img src={images.sm} alt="imagem" />
             </DivDados>
           ))}
       </section>
